@@ -1,7 +1,7 @@
 import React from "react";
 import DummyCard from "../components/DummyCard";
 
-const clientSide = () => {
+const ClientSide = () => {
   return (
     <>
       <h1>Hello World</h1>
@@ -10,4 +10,4 @@ const clientSide = () => {
   );
 };
 
-export default clientSide;
+export default ClientSide;

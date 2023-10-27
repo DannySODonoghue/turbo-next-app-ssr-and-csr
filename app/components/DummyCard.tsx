@@ -2,7 +2,7 @@ import React from "react";
 
 import Dummy from "./Dummy";
 
-const dummyCard = () => {
+const DummyCard = () => {
   return (
     <div>
       <h1>Album Button</h1>
@@ -11,4 +11,4 @@ const dummyCard = () => {
   );
 };
 
-export default dummyCard;
+export default DummyCard;

@@ -7,7 +7,7 @@ interface toDo {
   completed: boolean;
 }
 
-const serverSide = async () => {
+const ServerSide = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/todos/");
   const toDos: toDo[] = await res.json();
 
@@ -23,4 +23,4 @@ const serverSide = async () => {
   );
 };
 
-export default serverSide;
+export default ServerSide;

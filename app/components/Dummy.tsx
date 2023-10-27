@@ -9,7 +9,7 @@ interface ToDo {
   completed: boolean;
 }
 
-const todos = () => {
+const Todos = () => {
   let [todo, setTodo] = useState<ToDo>({
     userId: 0,
     id: 0,
@@ -28,4 +28,4 @@ const todos = () => {
   );
 };
 
-export default todos;
+export default Todos;
