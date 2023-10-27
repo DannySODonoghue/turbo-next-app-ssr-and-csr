@@ -13,7 +13,7 @@ const serverSide = async () => {
 
   return (
     <div>
-      <h1>To Do's</h1>
+      <h1>To Dos</h1>
       <ul>
         {toDos.map((toDo) => (
           <li key={toDo.id}>{toDo.title}</li>
